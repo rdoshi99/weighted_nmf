@@ -193,7 +193,7 @@ def _nmf_iterate(X, S, W, H, num_iters=100, verbose=False):
     return W, H, losses
 
 
-def nmf(data, weights, nvec=10, num_iters=100, verbose=False, track_losses=False):
+def run(data, weights, nvec=10, num_iters=100, verbose=False, track_losses=False):
     """
     Main function used to run the module and extract the stored values
     
