@@ -13,5 +13,5 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/rdoshi99/weighted_nmf",
     packages=['weighted_nmf'],
-    install_requires=['numpy', 'tqdm']
+    install_requires=['numpy']
 )
