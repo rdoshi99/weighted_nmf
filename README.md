@@ -3,7 +3,7 @@
 ## Weighted Non-negative Matrix Factorization
 
 Heteroskedastic Matrix Factorization is great but many problems are bound to only non-negative weight values (e.g., astronomy light curves).
-This module provides a straightforward implementation of weighted non-negative matrix factorization, or weighted NMF. Weighted NMF is a matrix factorization method similar to principal components analysis (PCA) except that it enforces a non-negativity constraint on the produced basis vectors (rather than orthogonality) and it is naturally suited to handle non-homogenous uncertainties and missing data. Our implementation provies a multiplicative weights iterative update technique.
+This module provides a straightforward implementation of weighted non-negative matrix factorization, or weighted NMF. Weighted NMF is a matrix factorization method similar to principal components analysis (PCA) except that it enforces a non-negativity constraint on the produced basis vectors (rather than orthogonality) and it is naturally suited to handle non-homogenous uncertainties and missing data. Our implementation provies a multiplicative weights iterative update technique which minimizes a Frobenius norm objective function.
 
 
 Given data `X` and weights `S` of shape `(n_samples, n_features)`,
