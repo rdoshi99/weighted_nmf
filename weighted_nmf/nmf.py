@@ -192,7 +192,7 @@ def _nmf_iterate(X, S, W, H, tol=1e-4, max_iters=100, verbose=False):
         losses[i] = objective(X, S, W, H)
         if verbose:
             print('iter {}: {}'.format(i, losses[i]))
-        if losses[i] <= tol:
+        if i > 0 and (losses[i]-losses[i-1] <= tol):
             print('Stopping condition reached early. Terminating iterations.')
             break
     
