@@ -19,7 +19,6 @@ Ruhi Doshi, Spring 2022
 """
 
 import numpy as np
-from tqdm import tqdm
 
 
 class model(object):
@@ -180,7 +179,7 @@ def _nmf_iterate(X, S, W, H, num_iters=100, verbose=False):
     print('Running NMF algorithm')
     # iterate over W, H updates
     losses = np.zeros((num_iters,))    
-    for i in tqdm(range(num_iters)):
+    for i in range(num_iters):
         
         W = _update_W(X, S, W, H)
         H = _update_H(X, S, W, H)
