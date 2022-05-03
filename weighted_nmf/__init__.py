@@ -1,2 +1,2 @@
 ### __init__
-from .nmf import run
+from .nmf import weighted_nmf_factorization
