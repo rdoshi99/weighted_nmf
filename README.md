@@ -15,8 +15,6 @@ Returns a model object `m` from which you can inspect the vector factors, coeffi
 ```
 pylab.plot(m.vectors[0])
     
-pylab.plot(m.coeff[0])
-    
 pylab.plot(m.model[0])
     
 pylab.plot(m.data[0])
