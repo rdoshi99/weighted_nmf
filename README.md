@@ -30,22 +30,22 @@ Ruhi Doshi (@rdoshi99), Spring 2022
 ## Installation
 To install this package, you can run the following commands in your terminal.
 
-First, clone into this repository
+First, clone into this repository.
 
 ```git clone https://github.com/rdoshi99/weighted_nmf.git```
 
-And move the current directory inside
+And move inside the current directory.
 
 ```cd weighted_nmf```
 
-Then run the `setup.py` file
+Then run the `setup.py` file.
 
 ```python setup.py install```
 
 That completes the installation process for this package and its dependencies.
 
 #### Requirements
-Only requires `numpy` (as of version 0.0.1)
+Only requires `numpy` (as of version v1.0)
 
 ## Background
 
@@ -54,4 +54,7 @@ The work is based on this paper by Tsalmantza & Hogg, 2012 (1),  which outlines 
 
 1) Tsalmantza, P. and Hogg, D., 2012. A DATA-DRIVEN MODEL FOR SPECTRA: FINDING DOUBLE REDSHIFTS IN THE SLOAN DIGITAL SKY SURVEY. The Astrophysical Journal, [online] 753(2), p.122. Available at: <https://arxiv.org/pdf/1201.3370.pdf>.
 
-2) 2 M. Blanton and S. Roweis., (2007). K-corrections and filter transformations in the ultraviolet, optical, and near infrared. The Astronomical Journal 133, [online]734-754(2). Available at https://arxiv.org/abs/astro-ph/0606170.
+2) M. Blanton and S. Roweis., (2007). K-corrections and filter transformations in the ultraviolet, optical, and near infrared. The Astronomical Journal 133, [online]734-754(2). Available at https://arxiv.org/abs/astro-ph/0606170.
+
+#### Acknowledgement
+Thank you to Stephen Bailey (@sbailey) for the significant guidance and support in improving the original algorithms and iterating throughout the research process.
